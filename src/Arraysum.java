@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 public class Arraysum {
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5};
@@ -8,7 +8,7 @@ public class Arraysum {
         System.out.println("Sum of arr2: " + Arraysum(arr2));
     }
 
-    public static int Arraysum(int[] arr) {
+    public static int Arraysum (int[] arr) {
         int sum = 0;
         for (int num : arr) {
             sum += num;
